@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BungerLogic"
+version = "0.0.1"
+description = "A package allowing for easy calculation of some of Warren Buffet and Charlie Munger's commonly referenced company evaluation metrics."
+authors = [{name="Zachary Chosed", email="zchosed@gmail.com"}]
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = [
+    
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
